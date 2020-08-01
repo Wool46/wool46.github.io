@@ -219,7 +219,7 @@ section:nth-child(2n) {
 .gall-item-cont {
     width: 90%;
     height: 100%;
-    min-width: 1200px;
+    min-width: 1000px;
     max-width: 2100px;
     display: flex;
     flex-direction: row;
@@ -233,8 +233,8 @@ section:nth-child(2n) {
 .gall-item {
     width:25vw;
     height: 18.75vw;
-    min-width: 360px;
-    min-height: 270px;
+    min-width: 280px;
+    min-height: 210px;
     max-width: 600px;
     max-height: 450px;
 
