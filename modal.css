@@ -26,7 +26,7 @@
 .modal-item-img {
     width: 65%;
     height: 80%;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center
@@ -35,10 +35,16 @@
 .modal-item-img-bor {
     width: calc(100% - 10px);
     height: calc(100% - 10px);
+
 }
 
-
 .modal-item-img-bor img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal-item-img-bor video {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -53,6 +59,17 @@
     overflow: hidden;
     font-size: 1.5rem;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-item-tex p {
+    width: 80%;
+    font-size: 0.75rem;
+    text-align: center;
+    
 }
 
 .modal-item-tytle {
@@ -72,9 +89,6 @@
 
 }
 
-#modal-1-2:hover {
-    display:none;
-}
 
 .modal-item-spec {
     width: 35%;
